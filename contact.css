@@ -1,0 +1,144 @@
+#parent{
+	position: relative;
+}
+.mid1{
+	width: 100%;
+	height: 490px;
+	background-color:snow;
+	z-index: 4;
+}
+.mid1a{
+	width:400px;
+	height: 270px;
+	margin-top: 120px;
+	margin-left: 140px;
+	animation-name: test2;
+	animation-duration: 3s;
+}
+.mid1a h1{
+	font-size: 700px;
+	margin-bottom: 0;
+	color:#DEB887;
+	
+}
+.mid2{
+	width:700px;
+	height:500px;
+	background-color:pink;
+	position: absolute;
+	top:120px;
+	left: 700px;
+	z-index: 2;
+}
+.mid2 img{
+	width:700px;
+	height:500px;
+	object-fit: cover;
+}
+.mid3{
+	width:500px;
+	height:250px;
+	background-color:#DEB887;
+	position: absolute;
+	top:385px;
+	left: 920px;
+	z-index: 1;
+}
+
+.parent{
+background-color:white;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+.form{
+	width: 90%;
+	height: 750px;	
+	margin-top: 120px;
+	margin-bottom: 50px;
+
+}
+.forma{
+	width: 35%;
+	height: 750px;
+	background-color: #DEB887;
+	color: white;
+	float: left;
+	border-radius: 15px;
+	border-bottom-right-radius:0 ;
+	border-top-right-radius:0 ;
+}
+.forma-content{
+	text-align: left;
+	width: 90%;
+	font-size: 22px;
+	padding-top: 30px;
+	padding-left: 15px;
+}
+.forma-content li{
+	margin-bottom: 40px;
+}
+i{
+	padding-right: 15px;
+}
+
+.formb{
+	width: 65%;
+	height: 750px;
+	background-color:snow;
+	float: right;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	top: ;
+}
+.formb-content{
+	position: absolute;
+	margin-left: 30px;
+}
+form{
+	font-size: 29px;
+	margin-left: 55px;
+	margin-top: 70px;
+}
+input {
+	border:0;
+	margin-bottom: 30px;
+	outline:0;
+	width: 600px;
+	height: 40px;
+}
+.submit1{
+	width:80px;
+	height: 50px;
+	border-radius: 50%;
+	background-color:#DEB887 ;
+	margin-left:40px;
+	border: none;
+}
+.submit1:hover{
+	width:90px;
+	height: 60px;
+	border-radius: 50%;
+	background-color:#DEB888 ;
+	margin-left:40px;
+	border: none;
+	transition: 1s;
+	color: white;
+}
+@keyframes test{
+  0%   {padding-left: 0px}
+  50%   {padding-left: 300px}
+  100% {padding-left: 60px}
+}
+@keyframes test2{
+  0%   {margin-left: 800px}
+  100% {margin-left: 140px}
+}
+@keyframes test4{
+  0%   {left: 150%}
+  100% {left: 700px}
+}
+@keyframes test5{
+  0%   {left: 150%}
+  100% {left: 920px}
+}
